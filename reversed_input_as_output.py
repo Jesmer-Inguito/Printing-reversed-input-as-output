@@ -7,3 +7,4 @@ number = input("Please enter your desired number: ")
 rev_number = number[::-1]
 
 # Print the reversed input as output
+print(*rev_number, sep=" ")
